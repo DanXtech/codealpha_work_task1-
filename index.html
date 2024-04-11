@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator from codealph</title>
+     <!--Google Font-->
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+
+     <!-- preloader -->
+     <div id="preloader">
+        <div class="preloader">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <!-- preloader end  -->
+
+    
+    <main>
+        <section class="container">
+          <div class="inner__container">
+            <h1 class="titleName">Age Calculator Task by Codealph</h1>
+           <div class="main__container">
+            <div class="input__wrapper">
+                <input type="date" id="date__input">
+                <button onclick="ageCalculate()">Calculate</button>
+            </div>
+
+            <div class="outputs__wrapper">
+                <div>
+                    <span id="years">
+                        -
+                    </span>
+                    <p>Years</p>
+                </div>
+
+                <div>
+                    <span id="months">
+                        -
+                    </span>
+                    <p>
+                        Months
+                    </p>
+                </div>
+
+                <div>
+                    <span id="days">
+                        -
+                    </span>
+                    <p>
+                        Days
+                    </p>
+                </div>
+            </div>
+           </div>
+          </div>
+        </section>
+    </main>
+    
+    <script src="./main.js">
+        
+    </script>
+</body>
+</html>
